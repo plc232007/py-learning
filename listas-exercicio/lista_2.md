@@ -65,7 +65,8 @@ Observe o que acontece com a original
 ✍️ Escreva em comentário o que você percebeu.
 
 🟢 Bloco 3 – is, is not e None
-Exercício 5 – Checagem correta de None
+
+## Exercício 5 – Checagem correta de None
 
 Crie uma função chamada buscar_usuario() que:
 
@@ -88,7 +89,6 @@ Compare usando:
 
 ==
 
-is
 
 Depois repita com o valor 257
 Anote o comportamento e reflita: por que isso acontece?
