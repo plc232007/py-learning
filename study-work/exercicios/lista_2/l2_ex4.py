@@ -11,6 +11,7 @@ Altere a cópia
 
 Observe o que acontece com a original
 
+---- OBS : Não entendi esse exercício!
 
 '''
 
