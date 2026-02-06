@@ -1,7 +1,18 @@
-lista = [1,2,3,4,5]
+lista_teste = ['ABC', 908, 9.33, True, 'Pedro', []]
+print (lista_teste)
 
-lista[3] = 300
-del lista[2]
-lista.append(8909) ## adiciona no final da lista
-lista.pop()
-print(lista)
+lista_teste.append('teste')
+
+print (lista_teste)
+
+lista_teste.pop(2)
+
+print (lista_teste)
+
+del lista_teste[4]
+
+print (lista_teste)
+
+
+
+lista_teste.insert()
