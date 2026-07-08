@@ -1,12 +1,11 @@
-def imprimir (a, b, c):
-    print (a,b,c)
-    
-imprimir(1,2,3)
 
 
 
-def saudacao (nome='Sem nome'):
-    print (f'Ola, {nome}!')
-    
+
+def saudacao(nome):
+    print (f'Olá, {nome}')
+
 saudacao('pedro')
-saudacao()
+saudacao('joao')
+saudacao('gabi')
+saudacao('julia')
