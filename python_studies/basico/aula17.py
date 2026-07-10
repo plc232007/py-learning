@@ -1,22 +1,19 @@
-nome = 'Pedro'
-preco = 381209389.11
+numb1 = int(input("Informe o primeiro número: "))
+numb2 = int(input("Informe o segundo número: "))
+operador = input ("Informe o operador: ")
 
-variavel = "%s, o preço é R$%.2f" % (nome, preco) #Muito parecido com C!!
-print (variavel)
-print("O hexadecimal de %d é %08x" % (232, 232))
+if (operador == '+') :
 
-nome = "Pedro"
-idade = 18
-altura = 1.90
+    print (f'{numb1} {operador} {numb2} = {numb1 + numb2}')
 
-if True:
-    print("Nome: %s\nIdade: %d\nAltura: %.2f" % (nome, idade, altura))
-elif False:
-    print("Nome: {}\nIdade: {}\nAltura: {}".format(nome, idade, altura))
+elif (operador == '-') :
+    print (f'{numb1} {operador} {numb2} = {numb1 - numb2}')
+
+elif (operador == '*') :
+    print (f'{numb1} {operador} {numb2} = {numb1 * numb2}')
     
-else:
-    print(f"Nome: {nome}\nIdade: {idade}\nAltura: {altura}")
-    
+elif (operador == '/') :
+    print (f'{numb1} {operador} {numb2} = {numb1 / numb2}')
 
 
 

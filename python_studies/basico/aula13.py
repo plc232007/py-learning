@@ -1,7 +1,6 @@
-a = 'A'
-b = 'B'
-c = 1.1
-string = 'a = {}; b = {}; c = {}'
-formato = string.format(a,b,c)
+a = 'Pedro'
+b = 'Gabi'
+c = 'Tomás'
 
-print (formato)
+string = 'a = {}; b = {}; c = {}'
+print(string.format(a, b, c))

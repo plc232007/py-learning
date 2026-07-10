@@ -11,3 +11,10 @@ nome = 'Terracap'
 
 print (f'{'-'*29}')
 print (f'{nome:-^29}')
+
+
+variavel = 'ASTA'
+print (f'{variavel}')
+print (f'{variavel: > 10}')
+print (f'{variavel: ^10}')
+
