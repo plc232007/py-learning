@@ -88,6 +88,10 @@ def segundo_maior(numeros):
     """Retorne o segundo maior valor DISTINTO da lista.
     Ex.: segundo_maior([3, 1, 4, 1, 5, 9, 2, 6]) -> 6
     (Cuidado: valores repetidos não contam duas vezes.)"""
+
+    for i in numeros :
+        if numeros[i] > numeros[i + 1]:
+
     raise NotImplementedError
 
 
