@@ -10,6 +10,7 @@
 # dicionários.
 # Imutáveis: str, int, float, bool, tuple
 # Mutável: dict, list
+
 pessoa = {
      'nome': 'Luiz Otávio',
      'sobrenome': 'Miranda',
@@ -21,5 +22,7 @@ pessoa = {
      ]
  }
 
-for i in pessoa:
-    print (i, pessoa[i])
+# print (pessoa, type(pessoa))
+
+for chave in pessoa:
+  print (chave)

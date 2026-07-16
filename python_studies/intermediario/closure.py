@@ -1,13 +1,19 @@
-def criar_mult (multiplicador):
-    def multiplicar(numero):
-        return numero * multiplicador
-    return multiplicar
+#closures e funções que retornam outras funções
 
-duplicar = criar_mult(2)
-print (duplicar(2))
+def criar_saudacao(saudacao, nome):
 
-triplicar = criar_mult(3)
-print (triplicar(3))
+  def saudar ():
 
-quadru = criar_mult(4)
-print (quadru(4))
+    return f'{saudacao}, {nome}'
+
+  return saudar
+
+s1 = criar_saudacao ('Bom dia', 'Pedro')
+
+s2 = criar_saudacao ('Boa noite', 'Joao')
+
+print (s1())
+print (s2())
+
+
+
